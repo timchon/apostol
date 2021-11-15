@@ -180,7 +180,7 @@ body{
 /* #region Offer */
 .offer{
   height: 88vh;
-  background-image: url(".././img/offer.png");
+  background-image: url("../img/offer.png");
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
