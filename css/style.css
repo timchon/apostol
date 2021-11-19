@@ -1098,3 +1098,50 @@ body._lock{
   width: 345px;
 }
 }
+@media screen and (max-width: 320px) {
+  .page__information {
+    width: 300px;
+}
+.about__img img {
+  width: 232px;
+  height: 134px;
+}
+.timetable__slider_list {
+  padding-left: 5px;
+}
+.news__block__item {
+  width: 300px;
+}
+.news__img {
+  width: 300px;
+  height: 163px;
+}
+.timetable__slider__link,
+.timetable__slider__link__active,
+.timetable__slider__no__active{
+  font-size: 14px;
+}
+.news__link {
+  margin-top: 138px;
+}
+.media__block__item {
+  width: 100%;
+}
+.media__img {
+  height: 180px;
+}
+.media__icon {
+  top: 65px;
+  left: 125px;
+}
+.school__img {
+  width: 100%;
+  height: 158px;
+}
+.maps iframe {
+  width: 100%;
+}
+.footer__box {
+  width: 90%;
+}
+}
