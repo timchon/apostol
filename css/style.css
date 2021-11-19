@@ -1075,3 +1075,26 @@ body._lock{
 }
 }
 /* #endregion */
+@media screen and (max-width: 425px) {
+.page__information {
+  width: 355px;
+}
+.about__img img {
+  width: 281px;
+  height: 174px;
+}
+.timetable__slider_list {
+  padding-left: 14px;
+}
+.school__img {
+  width: 281px;
+  height: 190px;
+}
+.maps iframe {
+  width: 345px;
+  height: 244px;
+}
+.footer__box {
+  width: 345px;
+}
+}
