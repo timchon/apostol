@@ -661,7 +661,7 @@ body._lock{
       padding-left: 10px;
     }
     .offer{
-      background-image: url('/img/offer1024.png');
+      background-image: url('./img/offer1024.png');
       height: 420px;
     }
     .offer__text{
@@ -780,7 +780,7 @@ body._lock{
   margin-left: 12px;
 }
 .offer{
-  background-image: url('/img/offer768.png');
+  background-image: url('./img/offer768.png');
   height: 320px;
 }
 .offer__text {
@@ -989,7 +989,7 @@ body._lock{
 /* #region  425 Media */
 @media screen and (max-width: 425px) {
   .offer {
-    background-image: url(/img/offer425.png);
+    background-image: url(./img/offer425.png);
     height: 320px;
 }
 .offer__title {
