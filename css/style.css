@@ -1075,7 +1075,7 @@ body._lock{
 }
 }
 /* #endregion */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 375px) {
 .page__information {
   width: 355px;
 }
