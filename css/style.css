@@ -26,6 +26,7 @@ h2{
   background-color: #2396fd	;
   display: flex;
   align-items: center;
+  
 }
 
 .header-box {
@@ -119,13 +120,12 @@ h2{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 35px;
 }
 .offer-icon{
   width: 43%;
 }
 .offer-icon img{
-  width: 85%;
+  width: 100%;
   
 }
 .offer-info{
