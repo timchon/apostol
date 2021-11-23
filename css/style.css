@@ -186,6 +186,9 @@ h2{
 /* #endregion */
 
 /* #region About US */
+.about-us{
+  margin-bottom: 100px;
+}
 .about-box{
   display: flex;
 }  
@@ -211,6 +214,54 @@ h2{
 }
 
 /* #endregion */
+
+/* #region Timetable an Calendar */
+.timetable-calendar{
+  display: flex;
+  justify-content: space-between;
+}
+.bullet-item{
+  display: flex;
+  list-style: none;
+}
+.bullet-list{
+  margin-left: 35px;
+}
+.bullet-list:nth-child(1){
+  margin-left: 0px;
+}
+.bullet-btn{
+  text-decoration: none;
+  display: inline-block;
+  background-color: #2396fd;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 50%;
+}
+.timetable-bullet{
+  margin-bottom: 30px;
+}
+.timetable-text{
+    background-color: #2396fd;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #00000075;
+    color: #ffff;
+}
+
+.timetable-text img{
+  width: 32px;
+  padding: 17px 25px 0px 25px;
+}
+.timetable-day-monday{
+  padding: 10px 25px 25px 25px;
+}
+.timetable-day-monday p{
+  border-bottom: 1px solid #ffff;
+  padding: 5px 0px;
+}
+/* #endregion */
+
 
 /* #region Media */
 @media screen and (max-width: 1170px) {
