@@ -179,10 +179,6 @@ h2{
 .offer-link-title:hover{
   opacity: 0.9;
 }
-.mouse-scroll {
-  display: flex;
-  justify-content: center;
-}
 
 .mouse-scroll img {
   width: 32px;
@@ -341,9 +337,6 @@ h2{
 .offer-icon {
   width: 42%;
 }
-.mouse-scroll {
-  margin-bottom: 15px;
-}
 }
 
 @media screen and (max-width: 560px){
@@ -357,27 +350,33 @@ h2{
   width: 57%;
 }
 }
-@media screen and (max-width: 425px){
+@media screen and (max-width: 411px){
   .offer-icon {
     width: 60%;
+  }
+  .offer{
+    height: 70vh;
   }
 }
 
 @media screen and (max-width: 375px){
   .offer-icon {
-    width: 65%;
+    width: 62%;
   }
+  .offer {
+    height: 89vh;
+}
 }
 
 @media screen and (max-width: 320px){
   .offer-icon {
-    width: 80%;
+    width: 62%;
   }
+  .offer {
+    height: 87vh;
 }
-
-@media screen and (max-width: 320px){
-  .offer-box {
-    margin: 0px 10px;
-  }  
+.offer-box {
+  margin: 0px 10px;
+}  
 }
 /* #endregion */
