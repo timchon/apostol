@@ -262,6 +262,41 @@ h2{
   text-align: center;
 }
 .offer-icon {
-  width: 45%;
+  width: 42%;
 }
+}
+
+@media screen and (max-width: 560px){
+.offer-icon {
+  width: 55%;
+}
+}
+
+@media screen and (max-width: 425px){
+.offer-icon {
+  width: 57%;
+}
+}
+@media screen and (max-width: 425px){
+  .offer-icon {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .offer-icon {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .offer-icon {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .offer-box {
+    margin: 0px 10px;
+  }  
 }
