@@ -6,6 +6,7 @@ body{
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   line-height: 18px;
+  color: #333333
 }
 h1{
   font-size: 34px;
@@ -13,13 +14,28 @@ h1{
 }
 h2{
   font-size: 24px;
-}
-.wrapper {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 50px;
+  margin-bottom: 70px;
 }
 
+.wrapper {
+  max-width: 1440px;
+  margin: 0 50px;
+}
+.btn{
+  padding: 11px 28px;
+  background-color: #f4d400;
+  display: inline-block;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn:hover{
+  opacity: 0.7;
+  transition: all ease 0.3s;
+}
 /* #region Header */
 .header{
   height: 75px;
@@ -34,6 +50,8 @@ h2{
   align-items: center;
   justify-content: space-between;
   padding-bottom: 10px;
+  width: 100%;
+  margin: 0 50px;
   border-bottom: 1px solid hsla(208, 100%, 59%, 0.886);
 }
 
@@ -112,10 +130,12 @@ h2{
 }
 /* #endregion */
 
+/* #region Offer */
 .offer{
   background: rgb(35,150,253);
   background: linear-gradient(180deg, rgba(35,150,253,1) 50%, rgb(98, 182, 255) 100%);
   height: 90vh;
+  margin-bottom: 100px;
 }
 
 .offer-box {
@@ -128,6 +148,7 @@ h2{
 }
 .offer-icon img{
   width: 100%;
+  height: auto;
   
 }
 .offer-info{
@@ -145,9 +166,6 @@ h2{
   color: #ffffff;
 }
 
-.offer-link{
-  
-}
 .offer-link-title{
   padding: 16px 28px;
   background-color: #f4d400;
@@ -162,6 +180,33 @@ h2{
 .offer-link-title:hover{
   opacity: 0.9;
 }
+
+/* #endregion */
+
+/* #region About US */
+.about-box{
+  display: flex;
+}  
+.about-img {
+  width: 50%;
+  margin-right: 30px;
+}
+.about-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+
+.about-text{
+  text-align: right;
+  width: 50%;
+}
+.btn-box {
+  margin-top: 25px;
+}
+/* #endregion */
+
+/* #region Media */
 @media screen and (max-width: 1170px) {
   .logo-text{
     display: none;
@@ -244,6 +289,25 @@ h2{
     top: 50%;
     transform: scale(1) translate(0px , -50%);
   }
+  .about-box{
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-img {
+   width: 100%; 
+   margin-right: 0px;
+   margin-bottom: 30px;
+  }
+  .about-text {
+   text-align: left; 
+   width: 100%; 
+  }
+  .btn-box {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  
 }
 @media screen and (max-width: 768px){
   h1 {
@@ -300,3 +364,4 @@ h2{
     margin: 0px 10px;
   }  
 }
+/* #endregion */
