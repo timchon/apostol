@@ -500,6 +500,9 @@ h2{
 .offer-icon {
   width: 55%;
 }
+.btn-box-right {
+  justify-content: center;
+}
 }
 
 @media screen and (max-width: 425px){
