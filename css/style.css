@@ -440,6 +440,9 @@ h2{
     display: flex;
     justify-content: center;
   }
+  .btn-box-right{
+    justify-content: right;
+  }
   
 }
 @media screen and (max-width: 768px){
