@@ -225,12 +225,7 @@ h2{
 .bullet-item{
   display: flex;
   list-style: none;
-}
-.bullet-list{
-  margin-left: 35px;
-}
-.bullet-list:nth-child(1){
-  margin-left: 0px;
+  justify-content: space-between;
 }
 .bullet-btn{
   text-decoration: none;
