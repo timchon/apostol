@@ -473,6 +473,17 @@ h2{
 .offer-icon {
   width: 57%;
 }
+.calendar-box {
+  flex-direction: column;
+  padding: 15px;
+}
+.calendar-img {
+    width: 100%;
+}
+.calendar-text {
+  width: 100%;
+  text-align: center;
+}
 }
 @media screen and (max-width: 411px){
   .offer-icon {
@@ -505,17 +516,7 @@ h2{
 .bullet-btn{
   padding: 6px;
 }
-.calendar-box {
-  flex-direction: column;
-  padding: 15px;
-}
-.calendar-img {
-    width: 100%;
-}
-.calendar-text {
-  width: 100%;
-  text-align: center;
-}
+
 
 }
 /* #endregion */
