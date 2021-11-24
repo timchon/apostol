@@ -16,6 +16,7 @@ h2{
   font-size: 24px;
   margin-bottom: 70px;
   text-transform: uppercase;
+  line-height: 26px;
 }
 
 .wrapper {
@@ -309,8 +310,9 @@ h2{
 .calendar-text {
   width: 70%;
 }
-.calendar-title{
-  padding-bottom: 5px;
+.calendar-title{ 
+  margin-bottom: 15px;
+  margin-top: 5px;
 }
 .calendar-description{
   margin-bottom: 15px;
@@ -326,6 +328,21 @@ h2{
   }
   .about-text p {
   line-height: 18px;
+}
+.timetable-calendar {
+  flex-direction: column;
+}
+.timetable{
+  width: 100%;
+  margin-right: 0px;
+  margin-bottom: 30px;
+}
+.calendar {
+  width: 100%;
+  text-align: left;
+}
+.calendar-box {
+  text-align: right;
 }
 }
 
@@ -484,6 +501,21 @@ h2{
 }
 .offer-box {
   margin: 0px 10px;
-}  
+}
+.bullet-btn{
+  padding: 6px;
+}
+.calendar-box {
+  flex-direction: column;
+  padding: 15px;
+}
+.calendar-img {
+    width: 100%;
+}
+.calendar-text {
+  width: 100%;
+  text-align: center;
+}
+
 }
 /* #endregion */
