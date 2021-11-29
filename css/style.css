@@ -566,6 +566,9 @@ h2{
   width: 100%;
   text-align: center;
 }
+.news-description {
+  align-items: center;
+}
 
 }
 @media screen and (max-width: 411px){
