@@ -572,6 +572,15 @@ h2{
   .offer {
     height: 89vh;
 }
+.news-box {
+  grid-template-columns: 1fr;
+}
+.news-description {
+  flex-direction: column;
+}
+.news-item p {
+  margin-bottom: 5px;
+}
 }
 
 @media screen and (max-width: 320px){
